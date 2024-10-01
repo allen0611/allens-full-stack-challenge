@@ -86,6 +86,7 @@
             <x-nav-link href="/" :active="request()->is('/')" :desktopView=false>Home</x-nav-link>
             <x-nav-link href="/jobs" :active="request()->is('jobs')" :desktopView=false>Jobs</x-nav-link>
             <x-nav-link href="/og" :active="request()->is('og')" :desktopView=false>OG</x-nav-link>
+            <x-nav-link href="/jobs/create" :active="request()->is('jobs/create')" :desktopView=false :extra_classes="'!text-white !font-bold border solid border-[#FF2D20] hover:!border-white bg-[#FF2D20]/10 !hover:bg-[#FF2D20]/30 transition-all'">Create Job</x-nav-link>
           </div>
           <div class="border-t border-gray-700 pb-3 pt-4">
             <div class="flex items-center px-5">
