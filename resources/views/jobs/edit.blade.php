@@ -147,7 +147,7 @@
         </button>
       </div>
       <div class="flex items-center gap-x-3">
-        <a href="/jobs/{{ $job->id }}" class="rounded-md h-9 mt-auto px-4 py-2 bg-transparent hover:bg-black/20 dark:hover:bg-white/20 text-sm font-semibold leading-6 transition-all">Cancel</a>
+        <a href="/jobs/{{ $job->id }}" class="rounded-md h-9 mt-auto px-4 py-2 bg-transparent hover:bg-black/30 dark:hover:bg-white/30 text-sm font-semibold leading-6 transition-all">Cancel</a>
         <button
           type="submit"
           class="flex items-center justify-center rounded-md h-9 mt-auto px-4 py-2 text-[#FF2D20] hover:text-black dark:hover:text-white font-bold border solid border-[#FF2D20] bg-[#FF2D20]/10 hover:bg-[#FF2D20]/30 transition-all"

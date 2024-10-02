@@ -60,8 +60,8 @@
       </div>
     </div>
 
-    <div class="mt-6 flex items-center justify-end gap-x-6">
-      <x-form-button type="button" overrideClass="text-sm font-semibold leading-6">Cancel</x-form-button>
+    <div class="mt-6 flex items-center justify-end gap-x-3">
+      <a href="/jobs" class="flex rounded-md h-9 px-4 py-2 mt-auto text-sm font-semibold leading-6 transition-all hover:bg-black/30 dark:hover:bg-white/30">Cancel</a>
       <x-form-button type="submit">Create Job Post</x-form-button>
     </div>
   </form>

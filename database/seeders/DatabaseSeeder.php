@@ -18,7 +18,8 @@ class DatabaseSeeder extends Seeder
       User::firstOrCreate(
         ['email' => fake()->unique()->safeEmail()],
         [
-          'name' => fake()->name(),
+          'first_name' => fake()->firstName(),
+          'last_name' => fake()->lastName(),
           'email_verified_at' => now(),
           'password' => bcrypt('passw0rd!'),
           'remember_token' => Str::random(10),
